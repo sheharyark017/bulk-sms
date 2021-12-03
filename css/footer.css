@@ -1,0 +1,169 @@
+* {
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --grey: #cfcfcf;
+}
+
+.footer {
+  color: #fff;
+  background: #0446a1;
+  padding: 40px 60px 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #0bbe92;
+}
+
+.footer .footer-heading p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: var(--grey);
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+  margin-left: 8px;
+  color: #0bbe92;
+}
+
+.footer-about {
+  padding-right: 40px;
+}
+
+.footer-logo p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about-text p {
+  font-size: 15px;
+  color: var(--grey);
+}
+
+.footer-contact {
+  padding: 0 10px;
+  color: var(--grey);
+  font-size: 15px;
+}
+
+.footer-contact a {
+  color: var(--grey);
+}
+
+.footer-contact span {
+  color: #fff;
+  font-weight: 500;
+}
+
+.social-links {
+  margin-top: 40px;
+}
+
+.footer-social a {
+  color: var(--grey);
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.footer-divider {
+  background-color: #001e47;
+  height: 1px;
+  margin: 30px 0 20px;
+}
+
+.footer-credit {
+  text-align: center;
+}
+.footer-credit p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--grey);
+}
+
+.footer-credit p a {
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 980px) {
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .footer .footer-heading p {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .footer-about {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .footer-logo p {
+    margin-bottom: 0;
+  }
+
+  .footer-other-apps {
+    margin-bottom: 40px;
+  }
+
+  .footer-contact {
+    margin-bottom: 30px;
+  }
+
+  .footer-contact span {
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .footer-social a {
+    color: var(--grey);
+    font-size: 22px;
+    margin-right: 15px;
+  }
+
+  .footer-divider {
+    background-color: #001e47;
+    height: 1px;
+    margin: 30px 0 20px;
+  }
+
+  .footer-credit {
+    text-align: center;
+  }
+  .footer-credit p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: var(--grey);
+  }
+
+  .footer-credit p a {
+    color: #fff;
+    font-weight: 600;
+  }
+}

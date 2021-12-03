@@ -23,14 +23,38 @@
 }
 
 .navbar .navbar-brand {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   color: #fff !important;
 }
 
 .navbar-nav .nav-item .nav-link {
   margin: 0 20px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   color: #fff !important;
+  transition: 0.4s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 980px) {
+  .navbar {
+    background: #fff;
+    padding: 15px 20px;
+    position: static;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 30px;
+    color: #000 !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    margin: 7px 0px;
+    font-size: 18px;
+    color: rgb(48, 48, 48) !important;
+  }
 }
